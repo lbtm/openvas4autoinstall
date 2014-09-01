@@ -1,19 +1,25 @@
-OpenVAS-4 install
-==========================
-This script install OpenVAS-4 for Debian Squeeze
+OpenVAS auto install
+===============
+This script install OpenVAS for Debian
+Tested on Squeeze, wheezy and Jessie
 
-Docs
-====
+Requirements
+===
 
-1) Download the script
-2) Be sure that execution right is set: chmod +x openvas4autoinstall.sh
+ * wget
 
-En execute:
+Getting script file
+===
+
+ * wget https://github.com/lbtm/openvas4autoinstall/blob/master/openvas6autoinstall.sh
+ 
+Be sure that execution right is set
+===
+
+ * chmod +x openvas6autoinstall.sh
+ 
+Running
+===
 As root:
-# ./openvas4autoinstall.sh 
 
-Versions
-========
-
-Version 0.1:
- *OpenVAS-4
+ * ./openvas6autoinstall.sh
